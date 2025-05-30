@@ -1,0 +1,120 @@
+.cart-items-product-container{
+    margin: 0 70px;
+    padding: 20px;
+}
+
+
+.cart-items-common-format{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+}
+
+.cart-items-common-format img{
+    height: 80px;
+    width: 75px;
+}
+.cart-items-common-format p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #343434;
+}
+div.price{
+    font-size: 17px;
+    font-weight: 400;
+    color: #343434;
+}
+div.quantity{
+    font-size: 17px;
+    font-weight: 400;
+    color: #343434;
+}
+div.total{
+    font-size: 17px;
+    font-weight: 400;
+    color: #343434;
+}
+.cart-items-common-format button{
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    color: #454545;
+}
+.outer-hr{
+    display: none;
+}
+
+
+/*=====================================
+small device
+=======================================*/
+@media (min-width: 200px) and (max-width: 700px) {
+    .cart-items-product-container{
+        display: flex;
+        column-gap: 30px;
+        margin: 20px 10px 0;
+        padding: 10px;
+    }
+    .cart-items-header{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .cart-items-common-format{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-gap{
+        row-gap: 20px;
+    }
+    .product-margin{
+        margin-top: 23px;
+    }
+    
+    .cart-items-common-format img{
+        height: 40px;
+        width: 45px;
+    }
+    .cart-items-common-format p{
+        font-size: 15px;
+        font-weight: 500;
+        color: #343434;
+    }
+    div.price{
+        font-size: 14px;
+        font-weight: 400;
+        color: #343434;
+    }
+    div.quantity{
+        font-size: 14px;
+        font-weight: 400;
+        color: #343434;
+    }
+    div.total{
+        font-size: 14px;
+        font-weight: 400;
+        color: #343434;
+    }
+    .cart-items-common-format button{
+        width: 40px;
+        height: 20px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        color: #454545;
+    }
+    .inner-hr{
+        display: none;
+    }
+    .outer-hr{
+        display: block;
+        margin-left: 20px;
+        
+    }
+    
+    
+}
+
+

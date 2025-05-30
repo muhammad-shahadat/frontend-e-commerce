@@ -1,0 +1,118 @@
+.hero-container{
+    display: flex;
+    background-image: linear-gradient(180deg, #efe1ff, #22afff);
+}
+.hero-left{
+    flex: 1;
+}
+.hero-container .hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    row-gap: 50px;
+    
+}
+.hero-left h2{
+    font-size: 20px;
+    font-weight: 500;   
+}
+.hero-left p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    
+}
+.hero-hand-icon img{
+    width: 60px;
+    height: 60px;
+}
+.hero-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-btn button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #ee2244;
+    color: #ededed;
+    transition: .4s;
+}
+.hero-btn button:active{
+    background-color: #ededed;
+    color: #222;
+}
+.hero-btn img{
+    width: 40px;
+    height: 40px; 
+}
+.hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*===================
+small device
+=====================*/
+@media (max-width:700px) {
+    .hero-container{
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .hero-container .hero-left{
+        align-items: center;
+        padding-left: 0;
+    }
+    .hero-left{
+        flex: 0;
+    }
+    .hero-left h2{
+        font-size: 18px;
+        font-weight: 500;   
+    }
+    .hero-left p{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .hero-hand-icon img{
+        width: 50px;
+        height: 50px;
+    }
+    .hero-btn button{
+        width: 180px;
+        height: 40px;
+        border: none;
+        font-size: 14px;
+        
+    }
+    .hero-btn button:hover{
+        background-color: #ededed;
+        color: #222;
+    }
+    .hero-btn img{
+        width: 30px;
+        height: 30px; 
+    }
+    .hero-right{
+       flex: 0;
+       margin-right: 150px;
+    }
+    .hero-right img{
+        width: 350px;
+        height: auto;
+    }
+    
+}

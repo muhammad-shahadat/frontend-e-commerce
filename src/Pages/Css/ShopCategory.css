@@ -1,0 +1,69 @@
+.shop-category-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 50px 50px;
+}
+.shop-category-index{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop-category-index p span{
+    color: #212121;
+    font-weight: 600;
+}
+.shop-category-sort button{
+    display: block;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    height: auto;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: #dadada;
+    color: #252525;
+    font-weight: 700;
+}
+.shop-category-product{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px 20px; /* that means row gap 30px and col gap 20px */
+    padding: 20px;
+}
+.explore-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.explore-more button{
+    background-color: #ededed;
+    color: #343434;
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+
+/*================
+samll device
+==================*/
+@media (min-width:200px) and (max-width:700px) {
+    .shop-category-container {
+        align-items: center;
+    }
+    .shop-category-index{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .shop-category-product{
+        grid-template-columns: auto;
+        row-gap: 30px; 
+    }
+    
+}

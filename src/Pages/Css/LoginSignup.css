@@ -1,0 +1,91 @@
+.login-signup-container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    max-width: 100%;
+    margin: 70px auto;
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-radius: 10px;
+}
+.login-signup-container h2{
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    color: #454545;
+}
+.login-signup-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.login-signup-area input{
+    height: 50px;
+    width: 90%;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343434;
+    border-radius: 15px;
+}
+.login-signup-container button{
+    display: block;
+    margin: 20px 0;
+    height: 40px;
+    width: 160px;
+    border: 1px solid #454545;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: #dfdfdf;
+    background-color: #1f11ff;
+    cursor: pointer;
+}
+.login-signup-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #343434;
+}
+.login-signup-container p span {
+    color: #ff5566;
+    font-weight: 700;
+    cursor: pointer;
+}
+.login-signup-agree {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+/*====================
+small device
+======================*/
+@media (min-width: 200px) and (max-width:700px) {
+
+    .login-signup-container h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .login-signup-area input{
+        height: 40px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    .login-signup-container button{
+        height: 35px;
+        width: 120px;
+        font-weight: 500;
+        font-size: 14px;
+        
+    }
+    .login-signup-container p {
+        font-size: 14px;
+    }
+
+}
