@@ -98,9 +98,11 @@ small device
     .cart-items-total-container{
         flex-direction: column;
         row-gap: 50px;
+        margin: 20px 30px;
     }
     .cart-items-total{
         row-gap: 20px;
+        flex: none;
     }
     .cart-items-total p{
         font-size: 15px;
@@ -123,6 +125,7 @@ small device
         font-size: 15px;
     }
     .cart-items-promocode{
+        flex: none;
         max-width: 100%;
         padding: 15px;
         
@@ -135,13 +138,13 @@ small device
         align-items: center;
     }
     .promocode input{
-        width: 200px;
+        width: 90%;
         height: 40px;
         padding: 15px;
         font-size: 15px;
     }
     .promocode button{
         height: 40px;
-        font-size: 15px;
+        font-size: 14px;
     }
 }
