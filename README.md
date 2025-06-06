@@ -37,19 +37,19 @@ This is the frontend of a modern and responsive e-commerce web application built
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page
-![Home Page](./public/screenshots/home.jpg)
+![Home Page](./screenshots/home.jpeg)
 
 ### 🛒 Cart Page
-![Cart Page](./public/screenshots/cart.jpg)
+![Cart Page](./screenshots/cart.jpeg)
 
 ### 📦 Product Category Page
-![Category Page](./public/screenshots/category.jpg)
+![Category Page](./screenshots/category.jpeg)
 
 ### 📦 Product Show Page
-![Product Page](./public/screenshots/product.jpeg)
+![Product Page](./screenshots/product.jpeg)
 
 ### 📱Mobile Views 
-![Mobile view](./public/screenshots/mobile_view.jpeg)
+![Mobile view](./screenshots/mobile_view.jpeg)
 
 > 💡 Images are captured in both desktop and mobile views for a better presentation.
 
@@ -59,18 +59,24 @@ This is the frontend of a modern and responsive e-commerce web application built
 
 ## Project structure
 frontend-e-commerce/
+├── screenshots/
+│ ├── home.jpeg
+│ ├── cart.jpg
+│ ├── category.jpg
+│ ├── product.jpeg
+│ └── mobile_view.jpeg
 ├── public/
-│   └── screenshots/
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── App.jsx
-│   └── main.jsx
+│ ├── components/
+│ ├── pages/
+│ ├── App.jsx
+│ └── main.jsx
 ├── .gitignore
 ├── package.json
 ├── vite.config.js
 └── README.md
 
+---
 
 ## 🚀 Getting Started Locally
 
@@ -82,11 +88,12 @@ npm run dev
 
 ``` 
 <!-- 🔚 Code block ends here -->
+---
 
 
 ## 🙋‍♂️ Author
-Muhammad Shahadat
-📧 Email: shahadat6640@gmail.com
-🔗 LinkedIn: linkedin.com/in/shahadatian 
+#### Muhammad Shahadat
+📧 Email: shahadat6640@gmail.com<br>
+🔗 LinkedIn: [linkedin.com/in/shahadatian](https://www.linkedin.com/in/shahadatian)
 
 
