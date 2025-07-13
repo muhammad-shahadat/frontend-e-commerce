@@ -1,6 +1,6 @@
 # 🛍️ E-Commerce Frontend (React + Vite)
 
-This is the frontend of a modern and responsive e-commerce web application built using **React**, **Vite**, and **CSS**. It provides a clean and functional user interface for browsing products, adding items to the cart, and applying promo codes during checkout.
+This is a practice project developed while following a YouTube tutorial. It is a modern and responsive frontend UI for an e-commerce application, built using **React**, **Vite**, and **CSS**. The goal of this project was to gain hands-on experience with React fundamentals, component-based architecture, and basic state management using Context API.
 
 ---
 
@@ -8,6 +8,17 @@ This is the frontend of a modern and responsive e-commerce web application built
 
 👉 [Visit Live Site](https://frontend-ecommerce-project.netlify.app/)  
 👉 [GitHub Repository](https://github.com/muhammad-shahadat/frontend-e-commerce)
+
+---
+
+## 🎯 Purpose of the Project
+
+- To practice building a complete frontend UI using React
+- To understand routing, component reuse, and responsive layout
+- To learn how to manage global state with Context API
+- To follow modern React best practices using Vite for performance
+
+> 💡 This project was built strictly for learning and practice purposes. The structure and design are based on a YouTube tutorial. I do not claim original authorship of the concept or layout.
 
 ---
 
@@ -94,6 +105,6 @@ npm run dev
 ## 🙋‍♂️ Author
 #### Muhammad Shahadat
 📧 Email: shahadat6640@gmail.com<br>
-🔗 LinkedIn: [linkedin.com/in/shahadatian](https://www.linkedin.com/in/shahadatian)
+🔗 LinkedIn: [linkedin.com/in/shahadatian](https://www.linkedin.com/in/shahadatian) 
 
 
